@@ -35,13 +35,6 @@ print('''\033[92m
                                                                   __/ |
                                                                   |___/    
 ''')
-print('''\033[91m
-        \033[91m [\033[96m*\033[91m] \033[97mWebsite  \033[91m=  \033[4m\033[1;97mwww.OnlineHacking.in \033[24m
-
-        \033[91m [\033[96m*\033[91m] \033[97mTelegram \033[5m\033[1;91m=  \033[97m@OnlineHacking   \033[25m 
-	
-	\033[91m [\033[96m*\033[91m] \033[97mFacebook \033[1;91m= \033[5m \033[97mOnline Hacking  \033[25m
-''')
 
 scale = input('\033[36m[!] provide a size scale [eg: "4 to 8" = 4:8] : ')
 start = int(scale.split(':')[0])
